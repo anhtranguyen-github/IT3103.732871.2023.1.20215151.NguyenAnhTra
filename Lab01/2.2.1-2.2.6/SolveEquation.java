@@ -21,11 +21,6 @@ public class SolveEquation {
         JOptionPane.showMessageDialog(null, StrNotification
                 ,"ket qua bai toan",JOptionPane.INFORMATION_MESSAGE);
     }
-
-
-    /**
-     *
-     */
     public static void secondEquation(){
         JOptionPane.showMessageDialog(null,
                 "Dang he phuong trinh 2 an:\na11*x1+a12*x2=b1\na21*x1+a22*x2=b2","dang bai toan",JOptionPane.INFORMATION_MESSAGE);
@@ -99,21 +94,17 @@ public class SolveEquation {
     }
 
 
-
-    /**
-     * @param args
-     */
     public static void main(String[] args){
         String choice;
         choice = JOptionPane.showInputDialog(null ,
                 "Please enter your choice:\n[1].Phuong trinh bac 1\n[2].He phuong trinh 2 an\n[3].Phuong trinh bac 2 ",
                 "Show input choice", JOptionPane.INFORMATION_MESSAGE);
-        Short douchoice = Short.parseShort(choice);
-        if(douchoice == 1){
+        short choicefield = Short.parseShort(choice);
+        if(choicefield == 1){
             firstEquation();
-        }else if (douchoice ==2) {
+        }else if (choicefield ==2) {
             secondEquation();
-        } else if (douchoice ==3) {
+        } else if (choicefield ==3) {
             thirdEquation();
         };
     }
