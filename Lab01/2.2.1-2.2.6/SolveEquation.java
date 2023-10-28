@@ -4,19 +4,19 @@ public class SolveEquation {
     public static void firstEquation(){
         String Numb1 = "",Numb2;
         String StrNotification = "Dap an cua bai toan: ";
-        Short wong = 0;
+        short wong = 0;
         JOptionPane.showMessageDialog(null,
                 "Dang phuong trinh bac1:\na*x+b=0","dang bai toan",JOptionPane.INFORMATION_MESSAGE);
         while(wong == 0){
             Numb1 = JOptionPane.showInputDialog(null,"Please enter a: ",
                     "Input the first number", JOptionPane.INFORMATION_MESSAGE);
-            Double Num1 = Double.parseDouble(Numb1);
+            double Num1 = Double.parseDouble(Numb1);
             if(Num1 != 0){ wong = 1; };
         };
         Numb2 = JOptionPane.showInputDialog(null,"Please enter b: ",
                 "Input the second number", JOptionPane.INFORMATION_MESSAGE);
-        Double Num2 = Double.parseDouble(Numb2);
-        Double answer = - Num2 / (Double.parseDouble(Numb1)) ;
+        double Num2 = Double.parseDouble(Numb2);
+        double answer = - Num2 / (Double.parseDouble(Numb1)) ;
         StrNotification += answer;
         JOptionPane.showMessageDialog(null, StrNotification
                 ,"ket qua bai toan",JOptionPane.INFORMATION_MESSAGE);
@@ -55,11 +55,11 @@ public class SolveEquation {
                         "He phuong trinh vo nghiem", "Ket qua bai toan", JOptionPane.INFORMATION_MESSAGE);
             }
         }else{
-            Double x1 = Dx / D;
-            Double x2 = Dy / D;
+            double x1 = Dx / D;
+            double x2 = Dy / D;
             String StrNotification = "ket qua cua bai toan la: " ;
-            StrNotification += x1.toString() ;
-            StrNotification += " va " + x2.toString() ;
+            StrNotification += Double.toString(x1);
+            StrNotification += " va " + Double.toString(x2);
             JOptionPane.showMessageDialog(null,
                     StrNotification, "Ket qua bai toan", JOptionPane.INFORMATION_MESSAGE);
         }
@@ -69,33 +69,34 @@ public class SolveEquation {
                 "Dang phuong trinh bac 2\nax^2+bx+c=0", "dang bai toan", JOptionPane.INFORMATION_MESSAGE);
         String smt = JOptionPane.showInputDialog(null,
                 "Please enter a: ", "Nhap a", JOptionPane.INFORMATION_MESSAGE);
-        Double a = Double.parseDouble(smt);
+        double a = Double.parseDouble(smt);
         smt = JOptionPane.showInputDialog(null,
                 "Please enter b: ", "Nhap b", JOptionPane.INFORMATION_MESSAGE);
         Double b = Double.parseDouble(smt);
         smt = JOptionPane.showInputDialog(null,
                 "Please enter c: ", "Nhap c", JOptionPane.INFORMATION_MESSAGE);
-        Double c = Double.parseDouble(smt);
+        double c = Double.parseDouble(smt);
 
-        Double delta = b*b - 4*a*c;
+        double delta = b*b - 4*a*c;
+        if(delta > 0){
+            double x1 = (-b + Math.sqrt(delta))/(2*a);
+            double x2 = (-b - Math.sqrt(delta))/(2*a);
+            String StrNotification = "Phuong trinh co 2 ngiem: " + x1 + " va " +x2
+                    ;
+            JOptionPane.showMessageDialog(null,
+                    StrNotification,  "2 nghiem", JOptionPane.INFORMATION_MESSAGE);
+        }
         if(delta < 0){
             JOptionPane.showMessageDialog(null,
                     "Phuong trinh vo nghiem",  "khong co nghiem", JOptionPane.INFORMATION_MESSAGE);
-        }else if(delta == 0){
+        }
+        if(delta == 0){
             double x = -b/(2*a);
             String StrNotification = "Phuong trinh co 1 nghiem duy nhat:  " + x;
             JOptionPane.showMessageDialog(null,
                     StrNotification,  "1 nghiem", JOptionPane.INFORMATION_MESSAGE);
-        }else{
-            final double x1 = (-b + sqrt(delta))/(2*a);
-            final double x2 = (-b + sqrt(delta))/(2*a);
-            String StrNotification = "Phuong trinh co 2 ngiem: " + x1 + " va " +x2;
-            JOptionPane.showMessageDialog(null,
-                    StrNotification,  "2 nghiem", JOptionPane.INFORMATION_MESSAGE);
         }
-    }
-    private static double sqrt(Double delta) {
-        return 0;
+
     }
 
 
