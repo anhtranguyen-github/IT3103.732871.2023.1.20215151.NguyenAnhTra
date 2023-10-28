@@ -46,9 +46,14 @@ public class SolveEquation {
         Double D = a11 * a22 - a12 * a21;
         Double Dx = b1 * a22 - b2 * a12;
         Double Dy = a11 * b2 -a21 * b1;
-        if(D == 0){
-            JOptionPane.showMessageDialog(null,
-                    "He phuong trinh vo nghiem", "Ket qua bai toan", JOptionPane.INFORMATION_MESSAGE);
+        if(D == 0 ){
+            if (b1/b2 == a11/a21 && b1/b2 == a12/a22){
+                JOptionPane.showMessageDialog(null,
+                    "He phuong trinh vo so nghiem", "Ket qua bai toan", JOptionPane.INFORMATION_MESSAGE);}
+            else {
+                JOptionPane.showMessageDialog(null,
+                        "He phuong trinh vo nghiem", "Ket qua bai toan", JOptionPane.INFORMATION_MESSAGE);
+            }
         }else{
             Double x1 = Dx / D;
             Double x2 = Dy / D;
