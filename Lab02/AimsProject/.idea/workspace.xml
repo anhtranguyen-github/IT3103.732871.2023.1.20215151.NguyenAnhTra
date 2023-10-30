@@ -9,9 +9,6 @@
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DigitalVideoDisc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <workItem from="1698464720936" duration="2615000" />
       <workItem from="1698489946683" duration="1955000" />
       <workItem from="1698649701401" duration="499000" />
-      <workItem from="1698650305911" duration="1031000" />
+      <workItem from="1698650305911" duration="1639000" />
     </task>
     <servers />
   </component>
