@@ -4,68 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03bb7198-83aa-46b4-8d08-d853fb49cf02" name="Changes" comment="">
+    <list default="true" id="8b997eef-c201-48ca-b299-a51585674282" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/6.1-6.6/out/production/6.1-6.6/Bai6_6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AimsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2XNLie5rBTex0fxYghqqkzqOFDW" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2XTVeJjK2SYuRhDe2VIO2oZNepw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/Desktop/Project/IT3103.732871.2023.1.20215151.NguyenAnhTra/Lab02/AimsProject/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03bb7198-83aa-46b4-8d08-d853fb49cf02" name="Changes" comment="" />
-      <created>1698464720044</created>
+      <changelist id="8b997eef-c201-48ca-b299-a51585674282" name="Changes" comment="" />
+      <created>1698653151370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698464720044</updated>
-      <workItem from="1698464720936" duration="2615000" />
-      <workItem from="1698489946683" duration="1955000" />
-      <workItem from="1698649701401" duration="499000" />
-      <workItem from="1698650305911" duration="1774000" />
-      <workItem from="1698652516989" duration="627000" />
+      <updated>1698653151370</updated>
+      <workItem from="1698653152429" duration="49000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
