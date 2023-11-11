@@ -37,4 +37,20 @@ public class Cart {
         }
         return total;
     }
+
+
+    public boolean addDigitalVideoDisc(DigitalVideoDisc[] dvdList){
+        for (DigitalVideoDisc digitalVideoDisc : dvdList) {
+            if (qtyOrdered <= MAX_NUMBERS_ORDERED) {
+                itemsOrdered[qtyOrdered] = digitalVideoDisc;
+                qtyOrdered++;
+                System.out.println("The disc " + digitalVideoDisc.getTitle() + " has been added");
+            } else {
+                System.out.println("Add the díc " + digitalVideoDisc.getTitle() + "FAILED");
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
