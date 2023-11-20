@@ -37,6 +37,7 @@ public class Cart {
         }
         return total;
     }
+
     public void displayCart() {
         System.out.println("************************************* Cart Display *************************************");
         System.out.println("Ordered Items:");
@@ -44,9 +45,8 @@ public class Cart {
         int itemCount = 1;
         for (DigitalVideoDisc disc : itemsOrdered) {
             if(disc == null) break;
-            System.out.printf("%d. DVD - %-20s - %-15s - %-20s - %-5d - %-5.2f$\n",
-                    itemCount++, disc.getTitle(), disc.getCategory(),
-                    disc.getDirector(), disc.getLength(), disc.getCost());
+            System.out.printf("%d. %s\n",
+                    itemCount++, disc.toString());
         }
 
         double totalCost = totalCost(); // Assuming you have a method to calculate the total cost.
