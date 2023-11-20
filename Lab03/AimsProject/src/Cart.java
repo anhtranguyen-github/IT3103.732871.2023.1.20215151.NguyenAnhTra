@@ -3,6 +3,7 @@ public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private final DigitalVideoDisc[] itemsOrdered =
             new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
+
     public void addDigitalVideoDisc(DigitalVideoDisc disc){ // add a DVD to cart
         if (qtyOrdered < MAX_NUMBERS_ORDERED ){ // check quantity of cart
             itemsOrdered[qtyOrdered] = disc;
@@ -37,4 +38,5 @@ public class Cart {
         }
         return total;
     }
+
 }
