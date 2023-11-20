@@ -52,11 +52,10 @@ public class Cart {
     public void searchByTitle(String title) {
         boolean found = false;
         System.out.printf("Search DVDs: %s\n", title);
-        for (int i = 0; i < qtyOrdered; i++) {
-            if (itemsOrdered[i].isMatch(title)) {
-                System.out.println(itemsOrdered[i].toString());
-                found = true;
-            }
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            if(disc == null) break;
+            System.out.printf(disc.toString());
+            found = true;
         }
         if (!found) {
             System.out.println("No match found for the given title.");
