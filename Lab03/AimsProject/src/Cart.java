@@ -38,5 +38,29 @@ public class Cart {
         }
         return total;
     }
+    public void searchById(int id) {
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].hashCode() == id) {
+                System.out.println("DVD found by ID:");
+                System.out.println(itemsOrdered[i].toString());
+                return;
+            }
+        }
+        System.out.println("No match found for the given ID.");
+    }
+
+    public void searchByTitle(String title) {
+        boolean found = false;
+        System.out.printf("Search DVDs: %s\n", title);
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].isMatch(title)) {
+                System.out.println(itemsOrdered[i].toString());
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("No match found for the given title.");
+        }
+    }
 
 }
