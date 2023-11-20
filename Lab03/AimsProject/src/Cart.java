@@ -37,4 +37,21 @@ public class Cart {
         }
         return total;
     }
+    public void displayCart() {
+        System.out.println("************************************* Cart Display *************************************");
+        System.out.println("Ordered Items:");
+
+        int itemCount = 1;
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            if(disc == null) break;
+            System.out.printf("%d. DVD - %-20s - %-15s - %-20s - %-5d - %-5.2f$\n",
+                    itemCount++, disc.getTitle(), disc.getCategory(),
+                    disc.getDirector(), disc.getLength(), disc.getCost());
+        }
+
+        double totalCost = totalCost(); // Assuming you have a method to calculate the total cost.
+        System.out.printf("Total cost: %.2f $\n", totalCost);
+
+        System.out.println("****************************************************************************************");
+    }
 }

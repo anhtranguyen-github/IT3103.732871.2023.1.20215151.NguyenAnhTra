@@ -12,7 +12,7 @@ public class Main {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation",
                 18.99f);
         anOrder.addDigitalVideoDisc(dvd3);
+        anOrder.displayCart();
 
-        System.out.println("Total Cost is: " + anOrder.totalCost());
     }
 }
