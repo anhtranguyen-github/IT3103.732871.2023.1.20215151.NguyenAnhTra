@@ -49,13 +49,16 @@ public class Cart {
         System.out.println("No match found for the given ID.");
     }
 
+
     public void searchByTitle(String title) {
         boolean found = false;
-        System.out.printf("Search DVDs: %s\n", title);
+        System.out.println("DVDs found by title:");
         for (DigitalVideoDisc disc : itemsOrdered) {
             if(disc == null) break;
-            System.out.printf(disc.toString());
-            found = true;
+            if (disc.isMatch(title)) {
+                System.out.println(disc.toString());
+                found = true;
+            }
         }
         if (!found) {
             System.out.println("No match found for the given title.");
