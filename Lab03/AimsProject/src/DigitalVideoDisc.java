@@ -64,14 +64,15 @@ public class DigitalVideoDisc {
         this.cost = cost;
         init();
     }
+    public boolean isMatch(String title) {
+        return this.title.equalsIgnoreCase(title);
+    }
+
     @Override
     public String toString() {
         return String.format("DVD - %-20s - %-15s - %-20s - %-5d - %-5.2f$",
                 title, category, director, length, cost);
     }
 
-    public boolean isMatch(String title) {
-        return this.title.equalsIgnoreCase(title);
-    }
 
 }
