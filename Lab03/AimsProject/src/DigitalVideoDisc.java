@@ -46,5 +46,10 @@ public class DigitalVideoDisc {
         this.director = director;
         this.cost = cost;
     }
+    @Override
+    public String toString() {
+        return String.format("DVD - %-20s - %-15s - %-20s - %-5d - %-5.2f$",
+                title, category, director, length, cost);
+    }
 
 }
