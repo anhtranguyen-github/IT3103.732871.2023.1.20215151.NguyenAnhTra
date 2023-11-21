@@ -3,6 +3,7 @@ public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private final DigitalVideoDisc[] itemsOrdered =
             new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
+
     public void addDigitalVideoDisc(DigitalVideoDisc disc){ // add a DVD to cart
         if (qtyOrdered < MAX_NUMBERS_ORDERED ){ // check quantity of cart
             itemsOrdered[qtyOrdered] = disc;
@@ -54,4 +55,33 @@ public class Cart {
 
         System.out.println("****************************************************************************************");
     }
+
+    public void searchById(int id) {
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].hashCode() == id) {
+                System.out.println("DVD found by ID:");
+                System.out.println(itemsOrdered[i].toString());
+                return;
+            }
+        }
+        System.out.println("No match found for the given ID.");
+    }
+
+
+    public void searchByTitle(String title) {
+        boolean found = false;
+        System.out.println("DVDs found by title:");
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            if(disc == null) break;
+            if (disc.isMatch(title)) {
+                System.out.println(disc.toString());
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("No match found for the given title.");
+        }
+    }
+
 }
+
