@@ -72,7 +72,7 @@ public class Cart {
         boolean found = false;
         System.out.println("DVDs found by title:");
         for (DigitalVideoDisc disc : itemsOrdered) {
-            if(disc == null) break;
+            if (disc == null) break;
             if (disc.isMatch(title)) {
                 System.out.println(disc.toString());
                 found = true;
@@ -80,6 +80,18 @@ public class Cart {
         }
         if (!found) {
             System.out.println("No match found for the given title.");
+        }
+    }
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList){
+        for (DigitalVideoDisc digitalVideoDisc : dvdList) {
+            if (qtyOrdered <= MAX_NUMBERS_ORDERED) {
+                itemsOrdered[qtyOrdered] = digitalVideoDisc;
+                qtyOrdered++;
+                System.out.println("The disc " + digitalVideoDisc.getTitle() + " has been added");
+            } else {
+                System.out.println("Add the díc " + digitalVideoDisc.getTitle() + "FAILED");
+                return;
+            }
         }
     }
 

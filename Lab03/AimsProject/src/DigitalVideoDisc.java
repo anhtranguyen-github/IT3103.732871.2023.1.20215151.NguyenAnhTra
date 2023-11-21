@@ -1,11 +1,17 @@
 public class DigitalVideoDisc {
 
-    private final String title;
+    private String title;
     private String category;
     private String director;
     private int length;
     private float cost;
     private static int nbDigitalVideoDiscs = 0;
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
     public String getCategory() {
         return category;
     }
