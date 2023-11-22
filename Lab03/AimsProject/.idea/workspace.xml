@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="" />
-=======
     <list default="true" id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
->>>>>>> refactor/packages
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,19 +34,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-<<<<<<< HEAD
     "git-widget-placeholder": "main",
-=======
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "refactor/packages",
->>>>>>> refactor/packages
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-<<<<<<< HEAD
-=======
       <recent name="hust.soict.dsai.test.disc" />
       <recent name="hust.soict.dsai.test.store" />
       <recent name="hust.soict.dsai.test.cart" />
@@ -57,7 +49,6 @@
       <recent name="hust.soict.dsai.aims.disc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
->>>>>>> refactor/packages
       <recent name="hust.soict.dsai.aims.cart" />
     </key>
   </component>
