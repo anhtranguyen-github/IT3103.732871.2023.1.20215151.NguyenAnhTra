@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8952d0ab-ddc9-4b02-b85f-89070cd3f80a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AimsProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Diagram0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase Diagram0.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,8 @@
       <updated>1700662341437</updated>
       <workItem from="1700662342799" duration="169000" />
       <workItem from="1700662527903" duration="52000" />
+      <workItem from="1700667855528" duration="15000" />
+      <workItem from="1700667879249" duration="9000" />
     </task>
     <servers />
   </component>
