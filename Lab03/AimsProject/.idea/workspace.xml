@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/TestInitDvd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/TestOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "refactor/packages",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;refactor/packages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hust.soict.dsai.test.disc" />
@@ -53,7 +65,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbcf2861-796a-4273-8e7f-a77dbbca183a" name="Changes" comment="" />
+      <changelist id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="" />
       <created>1699672760427</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -69,6 +81,8 @@
       <workItem from="1700580265927" duration="105000" />
       <workItem from="1700580521484" duration="109000" />
       <workItem from="1699672762330" duration="3056000" />
+      <workItem from="1700662531897" duration="342000" />
+      <workItem from="1700663757555" duration="1619000" />
     </task>
     <servers />
   </component>
