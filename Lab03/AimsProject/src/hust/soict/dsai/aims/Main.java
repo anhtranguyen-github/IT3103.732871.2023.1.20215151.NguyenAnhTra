@@ -1,5 +1,11 @@
+package hust.soict.dsai.aims;
 
-public class CartTest {
+import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
     public static void main(String[] args) {
         Cart anOrder = new Cart();
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation",
@@ -11,10 +17,7 @@ public class CartTest {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation",
                 18.99f);
         anOrder.addDigitalVideoDisc(dvd3);
+        anOrder.displayCart();
 
-        anOrder.searchById(1);
-
-        anOrder.searchByTitle("Start Wars");
-        anOrder.searchByTitle("The Matrix");
     }
 }
