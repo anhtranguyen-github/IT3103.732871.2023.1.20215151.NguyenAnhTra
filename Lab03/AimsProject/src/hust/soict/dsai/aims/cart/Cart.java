@@ -1,3 +1,7 @@
+package hust.soict.dsai.aims.cart;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
 public class Cart {
     private int qtyOrdered; //Quantity of items in cart
     public static final int MAX_NUMBERS_ORDERED = 20;
@@ -40,7 +44,7 @@ public class Cart {
     }
 
     public void displayCart() {
-        System.out.println("************************************* Cart Display *************************************");
+        System.out.println("************************************* hust.soict.dsai.aims.cart.Cart Display *************************************");
         System.out.println("Ordered Items:");
 
         int itemCount = 1;

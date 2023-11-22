@@ -1,6 +1,11 @@
+package hust.soict.dsai.test.store;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import hust.soict.dsai.aims.store.Store;
+
 public class StoreTest {
     public static void main(String[] args) {
-        // Create a Store
+        // Create a hust.soict.dsai.aims.store.Store
         Store store = new Store();
 
         // Create some DVDs

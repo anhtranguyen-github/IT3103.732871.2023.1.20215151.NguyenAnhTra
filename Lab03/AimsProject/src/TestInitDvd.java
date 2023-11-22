@@ -1,3 +1,6 @@
+import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
 public class TestInitDvd {
     public static void main(String[] args) {
         Cart anOrder = new Cart();
