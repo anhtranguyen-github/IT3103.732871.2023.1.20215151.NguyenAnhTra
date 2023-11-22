@@ -44,7 +44,7 @@ public class Cart {
     }
 
     public void displayCart() {
-        System.out.println("************************************* hust.soict.dsai.aims.cart.Cart Display *************************************");
+        System.out.println("*********************** hust.soict.dsai.aims.cart.Cart Display ************************");
         System.out.println("Ordered Items:");
 
         int itemCount = 1;
@@ -57,7 +57,7 @@ public class Cart {
         double totalCost = totalCost(); // Assuming you have a method to calculate the total cost.
         System.out.printf("Total cost: %.2f $\n", totalCost);
 
-        System.out.println("****************************************************************************************");
+        System.out.println("***************************************************************************************");
     }
 
     public void searchById(int id) {
