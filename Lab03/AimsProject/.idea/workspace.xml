@@ -4,93 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="" />
-=======
-    <list default="true" id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Class Diagram0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UseCase Diagram0.png" beforeDir="false" />
+    <list default="true" id="8e05f45f-0ccb-448d-87d0-b79a4e737a60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Lab03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Checkout_at_11_22_2023_9_14_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Checkout_at_11_22_2023_9_14_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Checkout_at_11_22_2023_9_14_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/OtherProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/Lab01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/6.1-6.6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Bai6_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Firstdialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/HelloNameDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Show2Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/SolveEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/Sumof2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/6.1-6.6/6.1-6.6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/Lab01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/Lab01/.idea/Lab01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/Lab01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/Lab01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/out/production/OtherProjects/out/production/Lab01/.idea/vcs.xml" beforeDir="false" />
     </list>
->>>>>>> refactor/packages
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2Y0qHhMhbL88m5okRFiFzBavS0D" />
+  <component name="ProjectId" id="2YXRyGkY7flthEi6tZ8cOHiVQVf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.selected.package.tslint": "(autodetect)"
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;refactor/packages&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
->>>>>>> refactor/packages
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="hust.soict.dsai.test.disc" />
-      <recent name="hust.soict.dsai.test.store" />
-      <recent name="hust.soict.dsai.test.cart" />
-      <recent name="hust.soict.dsai.aims.store" />
-      <recent name="hust.soict.dsai.aims.disc" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hust.soict.dsai.aims.cart" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cd58d14-a6d7-4607-892b-5423b72af765" name="Changes" comment="" />
-      <created>1699672760427</created>
+      <changelist id="8e05f45f-0ccb-448d-87d0-b79a4e737a60" name="Changes" comment="" />
+      <created>1700670192316</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699672760427</updated>
-      <workItem from="1698464720936" duration="2615000" />
-      <workItem from="1698489946683" duration="1955000" />
-      <workItem from="1698649701401" duration="499000" />
-      <workItem from="1698650305911" duration="1774000" />
-      <workItem from="1698652516989" duration="627000" />
-      <workItem from="1700061526196" duration="197000" />
-      <workItem from="1700061746721" duration="961000" />
-      <workItem from="1700237972273" duration="1333000" />
-      <workItem from="1700580265927" duration="105000" />
-      <workItem from="1700580521484" duration="109000" />
-      <workItem from="1699672762330" duration="3056000" />
-      <workItem from="1700662531897" duration="342000" />
-      <workItem from="1700663757555" duration="1619000" />
-      <workItem from="1700667899450" duration="132000" />
+      <updated>1700670192316</updated>
+      <workItem from="1700670194015" duration="41000" />
+      <workItem from="1700670413785" duration="313000" />
+      <workItem from="1700670754387" duration="14000" />
+      <workItem from="1700672101350" duration="10000" />
+      <workItem from="1700672122055" duration="39000" />
     </task>
     <servers />
   </component>
