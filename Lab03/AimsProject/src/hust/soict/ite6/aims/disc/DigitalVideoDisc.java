@@ -28,7 +28,6 @@ public class DigitalVideoDisc {
     public float getCost() {
         return cost;
     }
-
     //init method for nbDigitalVideoDiscs
     private void init() {
         nbDigitalVideoDiscs++;

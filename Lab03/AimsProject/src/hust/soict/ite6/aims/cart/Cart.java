@@ -44,7 +44,7 @@ public class Cart {
     }
 
     public void displayCart() {
-        System.out.println("*********************** hust.soict.dsai.aims.cart.Cart Display ************************");
+        System.out.println("****************************************CART*******************************************");
         System.out.println("Ordered Items:");
 
         int itemCount = 1;
@@ -94,6 +94,19 @@ public class Cart {
                 System.out.println("The disc " + digitalVideoDisc.getTitle() + " has been added");
             } else {
                 System.out.println("Add the díc " + digitalVideoDisc.getTitle() + "FAILED");
+                return;
+            }
+        }
+    }
+
+    public void addDigitalVideoDisc2(DigitalVideoDisc... dvdList) {
+        for (DigitalVideoDisc digitalVideoDisc : dvdList) {
+            if (qtyOrdered < MAX_NUMBERS_ORDERED) {
+                itemsOrdered[qtyOrdered] = digitalVideoDisc;
+                qtyOrdered++;
+                System.out.println("The disc " + digitalVideoDisc.getTitle() + " has been added");
+            } else {
+                System.out.println("Add the disc " + digitalVideoDisc.getTitle() + " FAILED. Cart is full.");
                 return;
             }
         }

@@ -8,20 +8,20 @@ import hust.soict.ite6.aims.disc.DigitalVideoDisc;
 
 public class CartTest {
     public static void main(String[] args) {
-        Cart anOrder = new Cart();
-        DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation",
-                "Roger Allers", 87, 19.95f);
-        anOrder.addDigitalVideoDisc(dvd1);
-        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Start Wars", "Science Fiction",
-                "George Lucas", 87, 24.95f);
-        anOrder.addDigitalVideoDisc(dvd2);
-        DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation",
-                18.99f);
-        anOrder.addDigitalVideoDisc(dvd3);
+        // Create a Cart instance
+        Cart myCart = new Cart();
 
-        anOrder.searchById(1);
+        // Create some DigitalVideoDisc instances
+        DigitalVideoDisc dvd1 = new DigitalVideoDisc("Movie 1", "Category 1", "Director 1", 120, 19.95f);
+        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Movie 2", "Category 2", "Director 2", 90, 12.99f);
+        DigitalVideoDisc dvd3 = new DigitalVideoDisc("Movie 3", "Category 3", "Director 3", 150, 24.99f);
 
-        anOrder.searchByTitle("Start Wars");
-        anOrder.searchByTitle("The Matrix");
+        // Add DVDs to the cart
+        myCart.addDigitalVideoDisc(dvd1);
+        myCart.addDigitalVideoDisc(dvd2);
+        myCart.addDigitalVideoDisc(dvd3);
+
+        // Display the contents of the cart
+        myCart.displayCart();
     }
 }

@@ -7,6 +7,8 @@ public class Store {
     private DigitalVideoDisc[] itemsInStore = new DigitalVideoDisc[MAX_ITEMS_IN_STORE];
     private int itemCount = 0;
 
+
+    
     // Other methods and constructors as needed
 
     public int getItemCount() {
