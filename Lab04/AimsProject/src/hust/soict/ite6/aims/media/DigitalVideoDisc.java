@@ -6,12 +6,16 @@ public class DigitalVideoDisc extends Media implements Playable{
     private String director;
     private int length;
     private static int nbDigitalVideoDisc = 0;
-
     public String getDirector() {
         return director;
     }
     public int getLength() {
         return length;
+    }
+    @Override
+    public void play() {
+        System.out.println("Playing DVD: " + this.getTitle());
+        System.out.println("DVD length: " + this.getLength());
     }
     public DigitalVideoDisc(String title) {
         super();
@@ -25,7 +29,6 @@ public class DigitalVideoDisc extends Media implements Playable{
         this.category = category;
         this.cost = cost;
     }
-
     public DigitalVideoDisc(String title, String category, String director, float cost) {
         super();
         this.title = title;
@@ -33,7 +36,6 @@ public class DigitalVideoDisc extends Media implements Playable{
         this.director = director;
         this.cost = cost;
     }
-
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
         super();
         this.title = title;
@@ -74,9 +76,4 @@ public class DigitalVideoDisc extends Media implements Playable{
         return this.title.equals(title);
     }
 
-    @Override
-    public void play() {
-        System.out.println("Playing DVD: " + this.getTitle());
-        System.out.println("DVD length: " + this.getLength());
-    }
 }
