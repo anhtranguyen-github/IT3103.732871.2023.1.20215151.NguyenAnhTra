@@ -1,10 +1,11 @@
 package hust.soict.ite6.aims.store;
 
 import hust.soict.ite6.aims.media.DigitalVideoDisc;
+import hust.soict.ite6.aims.media.Media;
 
 public class Store {
     private static final int MAX_ITEMS_IN_STORE = 50;
-    private DigitalVideoDisc[] itemsInStore = new DigitalVideoDisc[MAX_ITEMS_IN_STORE];
+    private Media[] itemsInStore = new Media[MAX_ITEMS_IN_STORE];
     private int itemCount = 0;
 
 
@@ -15,33 +16,33 @@ public class Store {
         return itemCount;
     }
 
-    public DigitalVideoDisc[] getItemsInStore() {
+    public Media[] getItemsInStore() {
         return itemsInStore;
     }
 
-    public void addDVD(DigitalVideoDisc dvd) {
+    public void addMedia(Media m) {
         if (itemCount < MAX_ITEMS_IN_STORE) {
-            itemsInStore[itemCount] = dvd;
+            itemsInStore[itemCount] = m;
             itemCount++;
-            System.out.println("DVD added to the store.");
+            System.out.println("Product added to the store.");
         } else {
-            System.out.println("The store is full. Cannot add more DVDs.");
+            System.out.println("The store is full. Cannot add more products.");
         }
     }
 
-    public void removeDVD(DigitalVideoDisc dvd) {
+    public void removeMedia(Media m) {
         for (int i = 0; i < itemCount; i++) {
-            if (itemsInStore[i] == dvd) {
+            if (itemsInStore[i] == m) {
                 for (int j = i; j < itemCount - 1; j++) {
                     itemsInStore[j] = itemsInStore[j + 1];
                 }
                 itemsInStore[itemCount - 1] = null;
                 itemCount--;
-                System.out.println("DVD removed from the store.");
+                System.out.println("Product removed from the store.");
                 return;
             }
         }
-        System.out.println("The DVD is not in the store.");
+        System.out.println("The product is not in the store.");
     }
 }
 
