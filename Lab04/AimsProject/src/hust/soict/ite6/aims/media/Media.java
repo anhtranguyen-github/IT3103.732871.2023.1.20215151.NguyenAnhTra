@@ -33,4 +33,7 @@ public abstract class Media {
 		// TODO Auto-generated constructor stub
 	}
 
+	public boolean isMatch(String title){
+		return this.title.equals(title);
+	}
 }
