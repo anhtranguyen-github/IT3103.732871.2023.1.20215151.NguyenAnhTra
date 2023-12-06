@@ -70,9 +70,7 @@ public class DigitalVideoDisc extends Media implements Playable{
      * @param title The title of the page.
      * @return The boolean value of the comparison of the title of the book to the title of the book being searched for.
      */
-    public boolean isMatch(String title){
-        return this.title.equals(title);
-    }
+
 
     @Override
     public void play() {
