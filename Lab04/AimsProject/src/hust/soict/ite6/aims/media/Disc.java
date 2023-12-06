@@ -22,11 +22,11 @@ public class Disc extends Media{
 
     public Disc(String title, String category, String director, int length, float cost) {
         super();
-        this.title = title;
-        this.category = category;
+        this.setTitle(title);
+        this.setCategory(category);
+        this.setCost(cost);
         this.director = director;
         this.length = length;
-        this.cost = cost;
     }
 
     public Disc() {

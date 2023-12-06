@@ -7,7 +7,6 @@ import java.util.List;
 public class CompactDisc extends Disc {
     private String artist;
     private List<Track> tracks = new ArrayList<Track>();
-
     public boolean addTrack(Track newTrack) {
         if(tracks.contains(newTrack)){
             return false;
@@ -16,7 +15,6 @@ public class CompactDisc extends Disc {
             return true;
         }
     }
-
     public boolean removeTrack(Track track) {
         if(tracks.contains(track)){
             tracks.remove(track);
@@ -25,7 +23,6 @@ public class CompactDisc extends Disc {
             return false;
         }
     }
-
     public int getLength(){
         int total = 0;
         for (Track i : tracks) {
@@ -33,5 +30,4 @@ public class CompactDisc extends Disc {
         }
         return total;
     }
-
 }
