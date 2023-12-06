@@ -7,6 +7,14 @@ import java.util.List;
 public class CompactDisc extends Disc {
     private String artist;
     private List<Track> tracks = new ArrayList<Track>();
+
+    public CompactDisc(int i, String s, String s1, float v) {
+        this.setId(i);
+        this.setTitle(s);
+        this.setCategory(s1);
+        this.setCost(v);
+    }
+
     public boolean addTrack(Track newTrack) {
         if(tracks.contains(newTrack)){
             return false;

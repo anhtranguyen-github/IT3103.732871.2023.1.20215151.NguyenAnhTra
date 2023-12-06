@@ -36,4 +36,9 @@ public abstract class Media {
 	public boolean isMatch(String title){
 		return this.title.equals(title);
 	}
+
+	public String toString() {
+		return "ID: " + id + ", Title: " + title + ", Category: " + category + ", Cost: " + cost;
+	}
+
 }
