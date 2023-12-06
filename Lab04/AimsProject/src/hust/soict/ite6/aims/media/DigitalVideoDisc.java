@@ -5,69 +5,57 @@ package hust.soict.ite6.aims.media;
 public class DigitalVideoDisc extends Media implements Playable{
     private String director;
     private int length;
-    private static int nbDigitalVideoDisc = 0;
-
-    public String getDirector() {
-        return director;
-    }
+    private float cost;
+    private static int nbDigitalVideoDiscs = 0;
     public int getLength() {
         return length;
     }
-    public DigitalVideoDisc(String title) {
-        super();
-        this.title = title;
+    public float getCost() {
+        return cost;
     }
-
-
-    public DigitalVideoDisc(String title, String category, float cost) {
-        super();
-        this.title = title;
-        this.category = category;
-        this.cost = cost;
+    //init method for nbDigitalVideoDiscs
+    private void init() {
+        nbDigitalVideoDiscs++;
     }
-
-    public DigitalVideoDisc(String title, String category, String director, float cost) {
-        super();
-        this.title = title;
-        this.category = category;
-        this.director = director;
-        this.cost = cost;
+    //get nbDigitalVideoDiscs
+    public static int getQtyDvd(){
+        return nbDigitalVideoDiscs;
     }
-
+    //add DVD with full information
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
-        super();
-        this.title = title;
-        this.category = category;
-        this.director = director;
+        this.setTitle(title);
+        this.setCategory(category);
+        this.setCost(cost);
         this.length = length;
         this.cost = cost;
+        init();
     }
-
-    /**
-     * The function takes the information stored in the object and returns it as a string
-     *
-     * @return A string representation of the DVD object.
-     */
-    public String toString(){
-        StringBuffer printDisc = new StringBuffer();
-        printDisc.append("DVD");
-        printDisc.append(" - ");
-        printDisc.append(title);
-        printDisc.append(" - ");
-        printDisc.append(category);
-        printDisc.append(" - ");
-        printDisc.append(director);
-        printDisc.append(" - ");
-        printDisc.append(length);
-        printDisc.append(": ");
-        printDisc.append(cost);
-        return  printDisc.toString();
+    //add DVD with only title
+    public DigitalVideoDisc(String title) {
+        super();
+        this.setTitle(title);
+        init();
     }
-
+    //add DVD with category, title and cost
+    public DigitalVideoDisc(String category, String title, float cost) {
+        this.setTitle(title);
+        this.setCategory(category);
+        this.cost = cost;
+        init();
+    }
+    //add DVD with director, category, title and cost
+    public DigitalVideoDisc( String director, String category, String title,  float cost) {
+        this.setTitle(title);
+        this.setCategory(category);
+        this.director = director;
+        this.cost = cost;
+        init();
+    }
 
     @Override
     public void play() {
         System.out.println("Playing DVD: " + this.getTitle());
         System.out.println("DVD length: " + this.getLength());
     }
+
 }

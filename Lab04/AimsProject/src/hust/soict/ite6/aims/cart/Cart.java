@@ -1,6 +1,5 @@
 // Nguyen Anh Tra - 20215151
 package hust.soict.ite6.aims.cart;
-import hust.soict.ite6.aims.media.DigitalVideoDisc;
 import hust.soict.ite6.aims.media.Media;
 
 public class Cart {
@@ -9,7 +8,7 @@ public class Cart {
     private final Media[] itemsOrdered =
             new Media[MAX_NUMBERS_ORDERED];
 
-    public void addDigitalVideoDisc(Media m){ // add a DVD to cart
+    public void addMedia(Media m){ // add a DVD to cart
         if (qtyOrdered < MAX_NUMBERS_ORDERED ){ // check quantity of cart
             itemsOrdered[qtyOrdered] = m;
             qtyOrdered++;
@@ -18,7 +17,7 @@ public class Cart {
         }
         else{
             //notification in console when cart is full
-            System.out.println("The cart is almost full. Cannot add more products.");
+            System.out.println("The cart is full. Cannot add more products.");
         }
     }
     //remove DVD method
@@ -71,8 +70,6 @@ public class Cart {
         }
         System.out.println("No match found for the given ID.");
     }
-
-
     public void searchByTitle(String title) {
         boolean found = false;
         System.out.println("Products found by title:");

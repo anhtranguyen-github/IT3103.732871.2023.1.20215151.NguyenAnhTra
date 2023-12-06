@@ -8,6 +8,13 @@ public class CompactDisc extends Disc {
     private String artist;
     private List<Track> tracks = new ArrayList<Track>();
 
+    public CompactDisc(int i, String s, String s1, float v) {
+        this.setId(i);
+        this.setTitle(s);
+        this.setCategory(s1);
+        this.setCost(v);
+    }
+
     public boolean addTrack(Track newTrack) {
         if(tracks.contains(newTrack)){
             return false;
@@ -16,7 +23,6 @@ public class CompactDisc extends Disc {
             return true;
         }
     }
-
     public boolean removeTrack(Track track) {
         if(tracks.contains(track)){
             tracks.remove(track);
@@ -25,7 +31,6 @@ public class CompactDisc extends Disc {
             return false;
         }
     }
-
     public int getLength(){
         int total = 0;
         for (Track i : tracks) {
@@ -33,5 +38,4 @@ public class CompactDisc extends Disc {
         }
         return total;
     }
-
 }
