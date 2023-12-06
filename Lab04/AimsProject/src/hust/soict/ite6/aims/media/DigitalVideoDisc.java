@@ -64,13 +64,6 @@ public class DigitalVideoDisc extends Media implements Playable{
         return  printDisc.toString();
     }
 
-    /**
-     * This function returns true if the title of the book is equal to the title passed in as a parameter.
-     *
-     * @param title The title of the page.
-     * @return The boolean value of the comparison of the title of the book to the title of the book being searched for.
-     */
-
 
     @Override
     public void play() {
