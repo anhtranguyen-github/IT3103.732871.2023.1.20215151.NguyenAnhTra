@@ -8,8 +8,6 @@ public class Store {
     private Media[] itemsInStore = new Media[MAX_ITEMS_IN_STORE];
     private int itemCount = 0;
 
-
-    
     // Other methods and constructors as needed
 
     public int getItemCount() {
