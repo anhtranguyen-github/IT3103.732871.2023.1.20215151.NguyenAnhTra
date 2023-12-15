@@ -7,6 +7,9 @@ import java.util.List;
 public class CompactDisc extends Disc {
     private String artist;
     private List<Track> tracks = new ArrayList<Track>();
+    public CompactDisc(String title, String category, String director, int length, float cost) {
+        super(title, category, director, length, cost);
+    }
     public boolean addTrack(Track newTrack) {
         if(tracks.contains(newTrack)){
             return false;
@@ -29,5 +32,8 @@ public class CompactDisc extends Disc {
             total += i.getLength();
         }
         return total;
+    }
+    public List<Track> getTracks() {
+        return tracks;
     }
 }
