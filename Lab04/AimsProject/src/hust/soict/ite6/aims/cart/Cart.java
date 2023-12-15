@@ -7,7 +7,6 @@ public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private final Media[] itemsOrdered =
             new Media[MAX_NUMBERS_ORDERED];
-
     public void addMedia(Media m){ // add a DVD to cart
         if (qtyOrdered < MAX_NUMBERS_ORDERED ){ // check quantity of cart
             itemsOrdered[qtyOrdered] = m;
@@ -59,7 +58,6 @@ public class Cart {
 
         System.out.println("***************************************************************************************");
     }
-
     public void searchById(int id) {
         for (int i = 0; i < qtyOrdered; i++) {
             if (itemsOrdered[i].hashCode() == id) {
@@ -96,7 +94,5 @@ public class Cart {
             }
         }
     }
-
-
 }
 
