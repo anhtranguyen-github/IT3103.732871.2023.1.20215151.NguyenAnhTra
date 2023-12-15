@@ -2,7 +2,7 @@
 
 package hust.soict.ite6.aims.media;
 
-public class DigitalVideoDisc extends Media implements Playable{
+public class DigitalVideoDisc extends Media implements Playable, Comparable<DigitalVideoDisc>{
     private String director;
     private int length;
     private float cost;
@@ -68,5 +68,38 @@ public class DigitalVideoDisc extends Media implements Playable{
     @Override
     public String toString() {
         return super.toString() + ", Director: " + this.getDirector() + ", Length: "+this.getLength();
+    }
+
+    // Enum to represent different ordering rules
+    public enum OrderBy {TITLE, DECREASING_LENGTH, COST}
+    private OrderBy orderBy = OrderBy.TITLE;
+    public void setOrderBy(OrderBy orderBy) {
+        this.orderBy = orderBy;
+    }
+    @Override
+    public int compareTo(DigitalVideoDisc other) {
+        // Check the current ordering rule
+        switch (orderBy) {
+            case TITLE:
+                return compareByTitle(other);
+            case DECREASING_LENGTH:
+                return compareByDecreasingLength(other);
+            case COST:
+                return compareByCost(other);
+            default:
+                return 0; // Default case, no comparison
+        }
+    }
+    private int compareByTitle(DigitalVideoDisc other) {
+        // Compare DVDs by title
+        return this.getTitle().compareToIgnoreCase(other.getTitle());
+    }
+    private int compareByDecreasingLength(DigitalVideoDisc other) {
+        // Compare DVDs by decreasing length
+        return Integer.compare(other.getLength(), this.getLength());
+    }
+    private int compareByCost(DigitalVideoDisc other) {
+        // Compare DVDs by cost
+        return Float.compare(this.getCost(), other.getCost());
     }
 }
