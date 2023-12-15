@@ -26,5 +26,8 @@ public class Book extends Media {
 	public List<String> getAuthors() {
 		return authors;
 	}
-
+	@Override
+	public String toString() {
+		return super.toString() + ", Authors: " + authors;
+	}
 }

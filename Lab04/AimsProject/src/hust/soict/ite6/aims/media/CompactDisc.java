@@ -45,4 +45,8 @@ public class CompactDisc extends Disc {
     public List<Track> getTracks() {
         return tracks;
     }
+    @Override
+    public String toString() {
+        return super.toString() + ", Director: " + this.getDirector() + ", Length: "+this.getLength();
+    }
 }
