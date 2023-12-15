@@ -2,6 +2,10 @@ package hust.soict.ite6.aims.media;
 public class Disc extends Media{
     private String director;
     private int length;
+
+    public Disc() {
+    }
+
     public int getLength() {
         return length;
     }
