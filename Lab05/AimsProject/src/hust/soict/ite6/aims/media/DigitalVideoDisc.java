@@ -7,6 +7,11 @@ public class DigitalVideoDisc extends Media implements Playable, Comparable<Digi
     private int length;
     private float cost;
     private static int nbDigitalVideoDiscs = 0;
+
+    public DigitalVideoDisc() {
+
+    }
+
     public String getDirector() {
         return director;
     }

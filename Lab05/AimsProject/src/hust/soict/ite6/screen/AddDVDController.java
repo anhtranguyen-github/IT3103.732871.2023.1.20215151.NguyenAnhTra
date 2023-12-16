@@ -1,9 +1,10 @@
 package hust.soict.ite6.screen;
-import hust.soict.dsai.aims.Aims;
-import hust.soict.dsai.aims.disc.DigitalVideoDisc;
-import hust.soict.dsai.aims.media.CompactDisc;
+import hust.soict.ite6.aims.Aims;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+
+import hust.soict.ite6.aims.media.DigitalVideoDisc;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -29,10 +30,10 @@ public class AddDVDController {
     	dvd.setCategory(tfCategory.getText());
     	dvd.setId(Integer.parseInt(tfID.getText()));
     	dvd.setCost(Float.parseFloat(tfCost.getText()));
-    	Aims.Mediastore.addMedia(dvd);
+    	//Aims.Mediastore.addMedia(dvd);
     	JFrame frame = new JFrame("JOptionPane showMessageDialog example");
     	JOptionPane.showMessageDialog(frame, "Update Store", dvd.getTitle() + " Added to Store", JOptionPane.INFORMATION_MESSAGE);
-   	  	new StoreScreen(Aims.MediaStore);
+   	  	//new StoreScreen(Aims.MediaStore);
    	  	StoreScreen.sc.setVisible(false);
     }
 

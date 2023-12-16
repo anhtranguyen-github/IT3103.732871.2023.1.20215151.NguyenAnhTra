@@ -1,9 +1,10 @@
 package hust.soict.ite6.screen;
-import hust.soict.dsai.aims.media.Playable;
+
+import hust.soict.ite6.aims.media.*;
+
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
-import javax.print.attribute.standard.Media;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -17,7 +18,7 @@ public class MediaStore extends JPanel {
 	public MediaStore(Media media) {
 		this.media = media;
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		JPanel title = new JLabel(media.getTitle());
+		JLabel title = new JLabel(media.getTitle());
 		title.setFont(new Font(title.getFont().getName(), Font.PLAIN, 20));
 		title.setAlignmentX(CENTER_ALIGNMENT);
 		JLabel cost = new JLabel("" + media.getCost() + " $");
@@ -35,5 +36,7 @@ public class MediaStore extends JPanel {
 		this.add(container);
 		this.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 	}
+
+
 
 }

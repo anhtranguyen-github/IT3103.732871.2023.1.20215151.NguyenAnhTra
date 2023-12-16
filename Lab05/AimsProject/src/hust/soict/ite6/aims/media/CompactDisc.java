@@ -19,6 +19,11 @@ public class CompactDisc extends Disc {
     public CompactDisc(String title, String category, String director, int length, float cost) {
         super(title, category, director, length, cost);
     }
+
+    public CompactDisc() {
+
+    }
+
     public boolean addTrack(Track newTrack) {
         if(tracks.contains(newTrack)){
             return false;

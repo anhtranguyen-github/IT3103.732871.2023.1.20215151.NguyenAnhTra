@@ -1,10 +1,10 @@
 package hust.soict.ite6.screen;
-import hust.soict.dsai.aims.Aims;
-import hust.soict.dsai.aims.cart.Cart;
-import hust.soict.dsai.aims.media.CompactDisc;
+
 import javax.print.attribute.standard.Media;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+
+import hust.soict.ite6.aims.cart.Cart;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -32,7 +32,13 @@ public class CartScreenController {
 		super();
 		this.cart = cart;
 	}
-	
+
+    public CartScreenController(Cart cart) {
+    }
+
+	public CartScreenController(Cart cart) {
+	}
+
 	@FXML
 	private void initialize() {
 		colMediaTitle.setCellValueFactory(new PropertyValueFactory<Media, String>("title"));

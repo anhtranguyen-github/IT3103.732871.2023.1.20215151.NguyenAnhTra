@@ -5,6 +5,11 @@ import java.util.List;
 
 public class Book extends Media {
 	private List<String> authors;
+
+	public Book() {
+
+	}
+
 	// Add author method
 	public void addAuthor(String authorName) {
 		if (!authors.contains(authorName)) {
