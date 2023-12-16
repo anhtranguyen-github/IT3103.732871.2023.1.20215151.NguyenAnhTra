@@ -2,7 +2,7 @@ package hust.soict.ite6.screen;
 
 import hust.soict.ite6.aims.media.Media;
 import hust.soict.ite6.aims.store.Store;
-
+import hust.soict.ite6.aims.Aims;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
