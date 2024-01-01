@@ -2,6 +2,11 @@ package hust.soict.ite6.aims.store;
 
 
 import hust.soict.ite6.aims.media.Media;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Store {
     private static final int MAX_ITEMS_IN_STORE = 50;
     private Media[] itemsInStore = new Media[MAX_ITEMS_IN_STORE];
@@ -9,8 +14,10 @@ public class Store {
     public int getItemCount() {
         return itemCount;
     }
-    public Media[] getItemsInStore() {
-        return itemsInStore;
+    public List<Media> getItemsInStore() {
+        return Arrays.stream(itemsInStore)
+                .filter(item -> item != null)
+                .collect(Collectors.toList());
     }
     public void addMedia(Media m) {
         if (itemCount < MAX_ITEMS_IN_STORE) {

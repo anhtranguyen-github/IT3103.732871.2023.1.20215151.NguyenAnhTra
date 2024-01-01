@@ -26,7 +26,7 @@ public class StoreTest {
         store.addMedia(cd1);
         // Test retrieving information about the items in the store
         System.out.println("Number of items in the store: " + store.getItemCount());
-        Media[] itemsInStore = store.getItemsInStore();
+        Media[] itemsInStore = store.getItemsInStore().toArray(new Media[0]);
         System.out.println("Items in the store:");
         for (Media item : itemsInStore) {
             if (item == null) {
@@ -38,7 +38,7 @@ public class StoreTest {
         store.removeMedia(book2);
         // Test retrieving updated information about the items in the store
         System.out.println("Number of items in the store after removal: " + store.getItemCount());
-        itemsInStore = store.getItemsInStore();
+        itemsInStore = store.getItemsInStore().toArray(new Media[0]);
         System.out.println("Items in the store after removal:");
         for (Media item : itemsInStore) {
             if (item == null) {
