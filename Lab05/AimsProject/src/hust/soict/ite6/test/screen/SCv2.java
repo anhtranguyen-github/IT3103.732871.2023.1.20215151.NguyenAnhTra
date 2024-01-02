@@ -4,8 +4,8 @@ import hust.soict.ite6.aims.media.*;
 import hust.soict.ite6.aims.screen.StoreScreen;
 import hust.soict.ite6.aims.store.Store;
 
+public class SCv2 {
 
-public class StoreScreenV1 {
     public static void main(String[] args) {
 
         CompactDisc newCd = new CompactDisc(101, "Relaxing Tunes", "Excellent", 8);
@@ -25,13 +25,8 @@ public class StoreScreenV1 {
         Store newStore = new Store();
         newStore.addMedia(newCd);
         newStore.addMedia(newDvd1);
-        newStore.addMedia(newDvd2);
-        newStore.addMedia(newDvd3);
-        //newStore.addMedia(newDvd4);
-        //newStore.addMedia(newDvd5);
-        //newStore.addMedia(newBook1);
-        //newStore.addMedia(newBook2);
-        //newStore.addMedia(newBook3);
+
+
 
         StoreScreen newStoreScreen;
         newStoreScreen = new StoreScreen(newStore);

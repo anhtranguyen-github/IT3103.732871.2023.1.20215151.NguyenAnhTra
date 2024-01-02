@@ -63,36 +63,39 @@ public class StoreScreen extends JFrame {
 
 		JLabel title = new JLabel("My Store");
 		title.setFont(new Font(title.getFont().getName(), Font.PLAIN, 50));
-		title.setForeground(Color.CYAN);
-
+		title.setForeground(new Color(33, 150, 243));
 		JButton cart = new JButton("View cart");
 		cart.setPreferredSize(new Dimension(100, 50));
 		cart.setMaximumSize(new Dimension(100, 50));
-
-
 		header.add(Box.createRigidArea(new Dimension(10, 10)));
 		header.add(title);
 		header.add(Box.createRigidArea(new Dimension(225, 10)));
 		header.add(Box.createHorizontalGlue());
 		header.add(cart);
 		header.add(Box.createRigidArea(new Dimension(10, 10)));
-
 		return header;
 	}
 
 	JPanel createCenter() {
 		JPanel center = new JPanel();
-
-
 		center.setLayout(new GridLayout(3, 3, 2, 2));
-		ArrayList<Media> mediaInStore = (ArrayList<Media>) store.getItemsInStore();
-		for(int i = 0; i< 9 ; i++){
-			MediaStore cell = new MediaStore(mediaInStore.get(i));
-			center.add(cell);
 
+		ArrayList<Media> mediaInStore = (ArrayList<Media>) store.getItemsInStore();
+		int numProducts = mediaInStore.size();
+
+		for (int i = 0; i < 9; i++) {
+			if (i < numProducts) {
+				MediaStore cell = new MediaStore(mediaInStore.get(i));
+				center.add(cell);
+			} else {
+				// If there are fewer than 9 products, leave the cell blank
+				center.add(new JPanel());
+			}
 		}
+
 		return center;
 	}
+
 	public StoreScreen(Store store) {
 		this.store = store;
 
